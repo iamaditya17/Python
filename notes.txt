@@ -1,0 +1,70 @@
+About Python:
+-------------
+-> Python is High Level Language (HLL) which is not understand by the machine.
+Machine understand only binary (0,1).
+-> So python uses Interpreter to convert the HLL into Machine Level Language (MLL).
+-> It is free and open-source.
+-> It is simple and easy
+-> It maintains case sensitive
+
+Print():
+--------
+-> print() is a function which is used to print on the display.
+
+Data Types:
+-----------
+Integer (1,2,-1,-2,0)
+String  ('Aditya', "Aditya", '''Aditya''')
+Float    (1.05,-2.06)
+Boolean  (True, False)
+None       (a = None)
+
+Comments
+---------
+-> Single line comment : #
+-> Multiline comment : """   """
+
+Operators
+---------
+
+1. Arithmetic operators: +,-,*,/,%,**
+2. Relational / Comparison Operators: ==,!=,<,>,<=,>=
+3. Assignment Operators: =,+=,-=,*=,/=,%=,**=
+4. Logical Operators: not,and,or
+
+Type Conversion:
+----------------
+-> Python will do this automatically
+
+e.g: adding a Int variable with Float variable which will return a Float o/p.
+
+Type Casting:
+-------------
+-> It was done forcefully
+
+User Input using input():
+-------------------------
+-> By default input() takes the input as a String
+
+e.g: 
+value = input("Enter a number: ")
+print(type(value))  -->O/P: <class 'str'>
+
+Conditional statements:
+-----------------------
+if-else
+if-elif-else
+nested-if
+
+Lists in python
+---------------
+-> It is a built in data type that stores set of values
+-> In python lists are equivalent to arrays.
+-> But array store values with same data types but lists can store values of different data types.
+
+marks = [80,90,100]
+students = ["Aditya",90,"BBSR"]
+
+Strings are immutable (non-changable) in python but lists are mutable(changable).
+
+
