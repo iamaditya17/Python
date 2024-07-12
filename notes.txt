@@ -67,4 +67,32 @@ students = ["Aditya",90,"BBSR"]
 
 Strings are immutable (non-changable) in python but lists are mutable(changable).
 
+Tuples
+------
+In python Tuples are built-in data types that lets us create immutable sequences of values.
+
+e.g : marks = (10,20,30)
+      marks[0] = 5   --> this is not allowed in tuple
+
+
+Dictionary
+----------
+-> Dictionaries are used to store data in key:value pairs.
+-> They are unordered, mutable(changeable) and don't allow duplicate keys.
+-> The "Keys" of a disctionary can be of any type except list and dictionary.
+
+Set
+-----
+-> Set is a collection of unordered items.
+-> Set is mutable but the elements of set are immutable.
+-> Each element in the set must be unique and immutable.
+-> If a set contains repeated elements then it stored only once (doesn't allow duplicates).
+-> List and dictionary can't be stored inside set.
+
+
+
+
+
+
+
 

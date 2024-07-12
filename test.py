@@ -1,9 +1,5 @@
-print("Hello World")
-def test():
-    print("Hii")
+inputString = input("Enter a string: ")
 
-test()
+words = inputString.split(" ")
 
-x = int(input("Enter a number: "))
-
-print(x)
+print(words)

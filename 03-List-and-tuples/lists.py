@@ -33,7 +33,7 @@ print("New copied list is: ",marks1)
 #index() [It will return the index of a particular element of the list]
 print(marks.index(45))
 
-#insert(index,ele) [it will add the element at the sepcified index]
+#insert(index,ele) [it will add the element at the specified index]
 
 marks.insert(5,48)
 print(marks)
@@ -42,11 +42,15 @@ print(marks)
 marks1.pop()
 print(marks1)
 
+#pop(index)  [It will delete the element at the given index]
+marks.pop(4)
+print(marks)
+
 #clear() [It is used to delete the entire list]
 marks1.clear()
 print("New list: ",marks1)
 
-#remove() [It is used to remove an specific element from the list]
+#remove() [It is used to remove an specific element from the list (only remove element's 1st occurance)]
 marks.remove(90)    # it will remove 90 from list marks 
 print(marks)
 
